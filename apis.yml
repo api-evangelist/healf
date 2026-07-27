@@ -1,19 +1,49 @@
 aid: healf
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/healf.png
 name: Healf
-description: Healf is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Healf (healf.mx) is a Mexico City-based InsurTech startup founded in 2022 that
+  offers an AI-based SaaS platform to simplify, explain, and manage medical /
+  health insurance policies. Using generative AI, natural language processing,
+  and information-retrieval models, the platform automates repetitive inquiries,
+  provides 24/7 conversational support to insurance brokers, and gives the
+  insured comprehensive insight into their policy details for better-informed
+  decisions. For brokers and doctors it streamlines communication and automates
+  processes, improving transparency and traceability for insurers. Healf is a
+  500 Global portfolio company (Somos Lucha Batch 19), also backed by Blue Zone
+  Ventures. This profile currently has no public API, developer portal, or
+  machine-readable specification surface.
 url: https://raw.githubusercontent.com/api-evangelist/healf/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
+- blue-zone-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- InsurTech
+- Insurance
+- Health Insurance
+- Artificial Intelligence
+- SaaS
+- Mexico
+- Brokers
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,14 @@ maintainers:
 common:
 - type: Website
   url: https://healf.mx
+- type: LinkedIn
+  url: https://mx.linkedin.com/company/healf-mx
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/healf-mx
+- type: DomainSecurity
+  url: security/healf-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
